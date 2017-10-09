@@ -11,12 +11,13 @@ nav ul li {
     padding: 0 20px;
 }
 
-.disabled {
-    color: gray;
+a .disabled,
+a.disabled {
+    color: hotpink;
 }
 
-a .disabled {
-    color: purple;
+.disabled {
+    color: gray;
 }
 
 .active {
@@ -49,6 +50,6 @@ a .disabled {
     font-weight: bold;
 }
 
-input[type="text"] {
+input {
     height: 25px;
 }
